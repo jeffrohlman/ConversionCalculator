@@ -15,6 +15,7 @@
 		568D183C1F2BE48A005A6785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568D183A1F2BE48A005A6785 /* LaunchScreen.storyboard */; };
 		568D18471F2BE48A005A6785 /* ConversionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D18461F2BE48A005A6785 /* ConversionCalculatorTests.swift */; };
 		568D18521F2BE48A005A6785 /* ConversionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D18511F2BE48A005A6785 /* ConversionCalculatorUITests.swift */; };
+		568D18621F2C0ACE005A6785 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D18611F2C0ACE005A6785 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		568D184D1F2BE48A005A6785 /* ConversionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568D18511F2BE48A005A6785 /* ConversionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUITests.swift; sourceTree = "<group>"; };
 		568D18531F2BE48A005A6785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568D18611F2C0ACE005A6785 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				568D182E1F2BE48A005A6785 /* AppDelegate.swift */,
+				568D18611F2C0ACE005A6785 /* ViewModel.swift */,
 				568D18301F2BE48A005A6785 /* ViewController.swift */,
 				568D18321F2BE48A005A6785 /* Main.storyboard */,
 				568D18381F2BE48A005A6785 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				568D18371F2BE48A005A6785 /* ConversionCalculator.xcdatamodeld in Sources */,
 				568D18311F2BE48A005A6785 /* ViewController.swift in Sources */,
+				568D18621F2C0ACE005A6785 /* ViewModel.swift in Sources */,
 				568D182F1F2BE48A005A6785 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
